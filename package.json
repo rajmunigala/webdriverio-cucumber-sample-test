@@ -8,12 +8,6 @@
   "author": "Raj Munigala",
   "scripts": {
     "build": "npx del ./dist && npx tsc && npx copyfiles -f ./src/test/borrowCalculator/features/** ./dist/src/test/borrowCalculator/features/",
-    "watch": "npx tsc -w",
-    "code:format": "eslint . --ext .ts && prettier --check \"src/**/*.ts*\" --write",
-    "code:gherkin": "npx gherkin-lint -c .gherkin-lintrc.json src/test/borrowCalculator/features",
-    "commit": "cz",
-    "cucumber:undefined:step": "npx cucumber-js --dry-run --require './dist/src/**/steps/*.js' ./dist/src/test/borrowCalculator/features --format summary",
-    "cucumber:unused:step": "npx ./dist/src/test/borrowCalculator/config/CucumberStepManager.js",
     "report:generate": "npx allure generate --clean ./test-report/allure-result/ -o ./test-report/allure-report",
     "report:open": "npx allure open test-report/allure-report",
     "test": "npx del test-report && wdio ./dist/wdio.conf.js"
