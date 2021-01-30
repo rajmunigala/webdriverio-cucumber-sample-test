@@ -48,3 +48,7 @@ You can run this command to start a server on your machine and open the allure r
 ```bash
 npm run report:open
 ```
+## To compile and run and generate report
+
+```bash
+./runAutomation.sh
