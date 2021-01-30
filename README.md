@@ -6,7 +6,7 @@ This is a sample project
 
 -   TypeScript
 -   Page Object Pattern
--   Allure report (screenshots on failure) and Timeline report
+-   Allure report (screenshots on failure)
 
 ## Requirements
 
