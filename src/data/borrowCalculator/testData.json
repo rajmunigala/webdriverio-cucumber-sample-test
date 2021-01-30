@@ -1,0 +1,31 @@
+{
+  "datarows": [
+    {
+      "SCENARIO_ID": "1",
+      "applicationType": "single",
+      "dependants": "0",
+      "propertyType": "home",
+      "income": "80000",
+      "otherIncome": "10000",
+      "livingExpenses": "500",
+      "currentHomeLoanRepayments": "0",
+      "otherLoanRepayments": "100",
+      "otherCommitments": "0",
+      "totalCreditCardLimits": "10000"
+    },
+    {
+      "SCENARIO_ID": "2",
+      "applicationType": "single",
+      "dependants": "1",
+      "propertyType": "investment",
+      "income": "80000",
+      "otherIncome": "10000",
+      "livingExpenses": "500",
+      "currentHomeLoanRepayments": "1600",
+      "otherLoanRepayments": "100",
+      "otherCommitments": "0",
+      "totalCreditCardLimits": "10000"
+    }
+  ]
+
+}

@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected false to equal true",
+      "children" : [ {
+        "name" : "Launch and initiate borrowing capacity",
+        "uid" : "89cc2543d39cdbdc",
+        "parentUid" : "d4a0243edab18cbbbb97b891737859ad",
+        "status" : "failed",
+        "time" : {
+          "start" : 1612011518949,
+          "stop" : 1612011527875,
+          "duration" : 8926
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-88.0.4324.96" ]
+      } ],
+      "uid" : "d4a0243edab18cbbbb97b891737859ad"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
