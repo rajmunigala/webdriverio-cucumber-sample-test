@@ -1,3 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"skipped","Sat Jan 30 23:58:47 AEDT 2021","Sat Jan 30 23:58:47 AEDT 2021","3","","Calculate borrowing capacity reading the data from json file","","Calculate borrowing capacity reading the data from json file","Launch and initiate borrowing capacity and start over","Launch and initiate borrowing capacity and start over",""
-"failed","Sat Jan 30 23:58:38 AEDT 2021","Sat Jan 30 23:58:47 AEDT 2021","8926","","Calculate borrowing capacity reading the data from json file","","Calculate borrowing capacity reading the data from json file","Launch and initiate borrowing capacity","Launch and initiate borrowing capacity",""
