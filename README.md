@@ -11,13 +11,6 @@ These tests are developed in TypeScript with [WebDriverIO V6](http://webdriver.i
 -   TypeScript
 -   [Expect-webdriverio](https://github.com/webdriverio/expect-webdriverio)
 -   Page Object Pattern
--   [Gherkin lint](https://github.com/vsiakka/gherkin-lint)
--   Scripts to check undefined and unused steps on step/feature files
--   [Commit lint](https://github.com/conventional-changelog/commitlint) and [Commitizen](https://github.com/commitizen/cz-cli#making-your-repo-commitizen-friendly)
--   ESlint
--   Prettier
--   Husky
--   Github Actions example
 -   Allure report (screenshots on failure) and Timeline report
 
 ## Requirements
