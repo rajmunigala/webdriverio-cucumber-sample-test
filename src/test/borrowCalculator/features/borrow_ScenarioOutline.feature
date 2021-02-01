@@ -15,7 +15,7 @@ Feature: Calculate borrowing capacity using scenario outline
         Then I click on calculate button
         And My estimated borrowing capacity should be '<expCapacity>'
 
-    Examples:
-    | applicationType   |   propertyType    |   dependants  |   income  |   otherIncome |   livingExp   |   hlrepay |   otherLoanRepay  |   otherCommit |   totalCCLimits   |   expCapacity |
-    |   single          |    home           |       0       |   80000   |   10000       |   500         |   0       |   100             |   0           |   10000           |   $500,000    |
+        Examples:
+            | applicationType | propertyType | dependants | income | otherIncome | livingExp | hlrepay | otherLoanRepay | otherCommit | totalCCLimits | expCapacity |
+            | single          | home         | 0          | 80000  | 10000       | 500       | 0       | 100            | 0           | 10000         | $500,000    |
 

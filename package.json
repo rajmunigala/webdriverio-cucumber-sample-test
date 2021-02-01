@@ -12,11 +12,6 @@
     "report:open": "npx allure open test-report/allure-report",
     "test": "npx del test-report && wdio ./dist/wdio.conf.js"
   },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  },
   "dependencies": {
     "@wdio/allure-reporter": "^6.11.0",
     "@wdio/cli": "^6.12.0",
