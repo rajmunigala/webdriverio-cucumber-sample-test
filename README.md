@@ -1,4 +1,4 @@
-# E2E tests with WebDriverIO and Cucumber
+# Tests with WebDriverIO and Cucumber
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Action Status](https://github.com/WarleyGabriel/demo-webdriverio-cucumber/workflows/CI/badge.svg)](https://github.com/WarleyGabriel/demo-webdriverio-cucumber/actions)
@@ -39,10 +39,10 @@ Compile TypeScript:
 npm run build
 ```
 
-Run e2e tests:
+Run tests:
 
 ```bash
-npm run tests:e2e
+npm run test
 ```
 
 ## Spoken Languages
@@ -65,42 +65,3 @@ You can run this command to start a server on your machine and open the allure r
 npm run report:open
 ```
 
-### Time line reporter
-
-You can see [Timeline report](https://github.com/QualityOps/wdio-timeline-reporter) in `./test-report/timeline/timeline-report.html`
-
-## Prettier and Eslint
-
-Run to format the code:
-
-```bash
-npm run code:format
-```
-
-## Gherkin lint
-
-We use [Gherkin lint](https://github.com/vsiakka/gherkin-lint) to keep the feature files organized.
-
-```bash
-npm run code:gherkin
-```
-
-Also, we have more two interesting hooks;
-
--   The first one checks if there is any step on feature files, and this step was not defined on step files:
-
-```bash
-npm run cucumber:undefined:step
-```
-
--   The second one checks if there is any step on steps files, and this step was not being used on feature files:
-
-```bash
-npm run cucumber:unused:step
-```
-
-## Commit
-
-We use the best practices for message's commit, using [Commit lint](https://github.com/conventional-changelog/commitlint) and [Commitizen](https://github.com/commitizen/cz-cli#making-your-repo-commitizen-friendly) we can generate changelogs automatically.
-
-Run `npm run commit` and commitizen will help you.
